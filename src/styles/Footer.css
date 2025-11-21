@@ -1,0 +1,46 @@
+.Footer{
+
+    background-color: #dda2a2;
+    color: rgb(8, 8, 9);
+    padding: 3vh 3vw;
+    margin-top: 3vh;
+
+}
+.Footer h4{
+
+    margin-left: 2vw;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-body ul{
+
+    
+}
+
+.footer-body ul li{
+    list-style: none;
+    color: rgb(8, 8, 9); 
+    cursor: pointer;
+}
+
+.footer-body ul li:hover{
+    list-style: none;
+    color: rgb(5, 5, 5); 
+}
+.footer-bottom{
+
+
+}
+
+.footer-bottom p{
+    text-align: center;
+    color: rgb(8, 8, 9);
+    margin: 0;
+}

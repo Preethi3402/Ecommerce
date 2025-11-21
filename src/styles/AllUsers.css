@@ -1,0 +1,51 @@
+.all-users-page{
+    background-color:#dda2a2;
+    height: 100vh;
+    width: 100%;
+    padding: 15vh 3vw 3vh 3vw;
+}
+
+.all-users-page h3{
+
+    color: aliceblue;
+}
+
+.user-cards{
+    margin-top: 4vh;
+    height: 70vh;
+    width: 70vw;
+    padding: 2vh 1vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-card{
+
+    color: black;
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    padding: 3vh 2vw;
+    width: 65vw;
+    border-radius: 0.8rem;
+}
+
+.user-card span{
+color: white;
+margin: 0;
+
+}
+
+.user-card span h5{
+
+    font-weight: 400;
+    color:black;
+}
+
+.user-card span p{
+    color: black;
+    margin: 0;
+}
+
